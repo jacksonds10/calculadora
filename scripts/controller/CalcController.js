@@ -28,11 +28,20 @@ class CalController {
         this._displayCalcEl.innerHTML = value;
     }
 
+<<<<<<< HEAD
     get displayDate() {
         return this._dataEl.innerHTML;
     }
     set displayDate(value) {
         this._dataEl.innerHTML = value;
+=======
+    get currentDate() {
+        return new Date;
+    }
+
+    set currentDate(value) {
+        this._currentDate = value;
+>>>>>>> 0fff65e25134f25494d2b963125caf725108482f
     }
 
     get currentDate() {
